@@ -1,0 +1,71 @@
+{
+  "FakeRobux": {
+    "enableRobuxgui": true,
+    "RobuxAmount": 0, -- change the amount of robux you want here!
+    "showFakeBalance": true,
+    "fakeRobuxIcon": "robux_icon.png",
+    "animateBalanceChange": true,
+    "realisticCurrencyFormat": true,
+    "autoUpdateBalance": true,
+    "displayRobuxInHeader": true,
+    "useOfficialFont": true
+  },
+  "FakePurchase": {
+    "enabled": true,
+    "simulateSuccess": true,
+    "showTransactionID": true,
+    "transactionIDFormat": "#REAL-XXXX-XXXX-XXXX",
+    "fakeTaxRate": 0.3,
+    "showAfterPurchaseRobux": true,
+    "afterPurchaseRobuxAmount": 1000000,
+    "simulatePendingStatus": true,
+    "fakePurchasePopup": true,
+    "fakePurchaseDelay": 2.5,
+    "confirmationMessage": "Purchase successful! Your Robux have been added.",
+    "useOfficialSounds": true,
+    "displayPurchaseHistory": true,
+    "storeRecentTransactions": true
+  },
+  "VisualTweaks": {
+    "buttonColor": "#FFD700",
+    "backgroundBlur": true,
+    "fontStyle": "Bold",
+    "iconOverride": "fake_robux_icon.png",
+    "gradientBackground": true,
+    "shadowEffects": true,
+    "customCursor": "robux_cursor.png",
+    "fakeLoadingBar": true,
+    "popUpTransparency": 0.85,
+    "matchOfficialUI": true,
+    "useRealIcons": true,
+    "enableHoverEffects": true
+  },
+  "Security": {
+    "antiDetection": true,
+    "disableRealPurchases": false,
+    "autoDisableOnUpdate": true,
+    "logUsage": false,
+    "hideFromInspectElement": true,
+    "fakeConsoleErrors": [
+      "Uncaught TypeError: Cannot read properties of null (reading 'processPurchase')",
+      "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    ],
+    "disableRightClick": true,
+    "blockDevTools": true
+  },
+  "Localization": {
+    "language": "en",
+    "currencySymbol": "R$",
+    "decimalSeparator": ".",
+    "thousandsSeparator": ",",
+    "regionFormat": "US"
+  },
+  "AdvancedSettings": {
+    "forceFullScreenUI": true,
+    "overrideAnimationSpeed": 1.0,
+    "enableDarkMode": false,
+    "useHighResolutionIcons": true,
+    "simulateNetworkDelay": false,
+    "randomizeTransactionIDs": true
+  }
+}
